@@ -1,0 +1,10 @@
+{
+    "makefile.extensionOutputFolder": "./.vscode",
+    "cSpell.words": [
+        "godoc",
+        "godopi",
+        "gonic",
+        "swaggo",
+        "Wrapf"
+    ]
+}

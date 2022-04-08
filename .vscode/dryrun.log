@@ -1,0 +1,5 @@
+make.exe --dry-run --always-make --keep-going --print-directory
+make: Entering directory 'c:/Users/talha/Desktop/godopi'
+go build -o godopi
+make: Leaving directory 'c:/Users/talha/Desktop/godopi'
+ 

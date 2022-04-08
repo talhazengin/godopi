@@ -1,0 +1,18 @@
+version: "3.9"
+services:
+  api:
+    build:
+      dockerfile: dockerfile
+      context: .
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+    ports:
+      - 8080:8080
+    depends_on:
+      - cache
+    environment:
+      - REDIS_ADDRESS=cache:6379
+  cache:
+    image: redis:6.2.6-alpine
+    ports:
+      - 6379:6379

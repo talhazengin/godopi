@@ -1,0 +1,8 @@
+run:
+  timeout: 5m
+  issues-exit-code: 1
+  skip-dirs:
+    - docs
+
+linters:
+  enable-all: true
